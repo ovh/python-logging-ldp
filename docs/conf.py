@@ -55,8 +55,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'logging-ldp'
-copyright = '2019, Cedric Dumay'
-author = 'Cedric Dumay'
+copyright = u'2019-present, OVH SAS'
+author = u'OVH SAS'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

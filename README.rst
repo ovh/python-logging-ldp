@@ -6,8 +6,8 @@ Logging for OVH Logs Data Platform
    :target: https://pypi.python.org/pypi/logging-ldp/
    :alt: Latest Version
 
-.. image:: https://travis-ci.org/cdumay/logging-ldp.svg?branch=master
-   :target: https://travis-ci.org/cdumay/logging-ldp
+.. image:: https://travis-ci.org/ovh/logging-ldp.svg?branch=master
+   :target: https://travis-ci.org/ovh/logging-ldp
    :alt: Latest version
 
 
@@ -52,7 +52,7 @@ Project Links
 
 - Docs: http://logging-ldp.readthedocs.io/
 - PyPI: https://pypi.python.org/pypi/logging-ldp
-- Issues: https://github.com/cdumay/logging-ldp/issues
+- Issues: https://github.com/ovh/logging-ldp/issues
 - OVH Logs Data Platform
     - Homepage (FR): https://logs.ovh.com
     - Documentation: https://docs.ovh.com/fr/logs-data-platform/
@@ -63,4 +63,4 @@ Project Links
 License
 =======
 
-Apache License 2.0
+Licensed under `BSD 3-Clause License <./LICENSE>`_ or https://opensource.org/licenses/BSD-3-Clause.
