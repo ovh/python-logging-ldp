@@ -52,7 +52,7 @@ Project Links
 
 - Docs: http://logging-ldp.readthedocs.io/
 - PyPI: https://pypi.python.org/pypi/logging-ldp
-- Issues: https://github.com/ovh/pythonlogging-ldp/issues
+- Issues: https://github.com/ovh/python-logging-ldp/issues
 - OVH Logs Data Platform
     - Homepage (FR): https://logs.ovh.com
     - Documentation: https://docs.ovh.com/fr/logs-data-platform/
