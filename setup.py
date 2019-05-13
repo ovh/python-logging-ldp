@@ -16,7 +16,7 @@ setup(
     keywords='',
     author='OVH SAS',
     author_email='github@ovh.net',
-    url='https://github.com/ovh/logging-ldp',
+    url='https://github.com/ovh/python-logging-ldp',
     license='BSD',
     py_modules=['logging_ldp'],
     include_package_data=True,
