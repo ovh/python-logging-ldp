@@ -16,8 +16,8 @@ from logging_gelf.schemas import GelfSchema
 
 
 class LDPSchema(GelfSchema):
-    @staticmethod
-    def _forge_key(key, value):
+    @classmethod
+    def _forge_key(cls, key, value):
         suffix = ""
         if isinstance(value, float):
             suffix = "_num"
