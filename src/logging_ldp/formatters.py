@@ -19,18 +19,15 @@ class LDPGELFFormatter(GELFFormatter):
         )
         self.token = token
 
-    def format(self, record):
-        """Format the specified record into json using the schema which MUST
-        inherit from :class:`logging_ldp.schemas.LDPSchema`.
+    def serialize_record(self, record):
+        """Serialize logging record into a dict
 
+        :param record:
         :param logging.LogRecord record: Contains all the information pertinent
         to the event being logged.
-        :return: A JSON dump of the record.
-        :rtype: str
+        :return: A dict dump of the record.
+        :rtype: dict
         """
-        data = self.filter_keys(self.schema().dump(record))
+        data = GELFFormatter.serialize_record(self, record)
         data['_X-OVH-TOKEN'] = self.token
-        out = json.dumps(data, cls=self._encoder_cls)
-        if self.null_character is True:
-            out += '\0'
-        return out
+        return data
